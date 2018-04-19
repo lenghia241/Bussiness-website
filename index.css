@@ -1,0 +1,165 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #4C6C77;
+}
+
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 2rem 3rem;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li img {
+    width: 40rem;
+}
+
+li button {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border: 3px double #D8D8D8;
+    border-radius: 10%;
+    width: 15rem;
+    cursor: pointer;
+    position: relative;
+    top: 6.5rem;
+}
+
+li button:hover {
+    background-color: #4C6C77;
+    color: #fff;
+}
+
+/* Hero Image */
+
+.heroImage {
+    background: linear-gradient(to top right, #BBD2D8, #E4E8EB); 
+    height: 40rem;
+    margin-top: 11rem;
+    position: relative;
+    border: 3px double #D8D8D8;
+}
+
+.hero-left {
+    position: relative;
+    float: left;
+    width: 60%;
+}
+
+.hero-right {
+    position: relative;
+}
+
+.hero-right img{
+    position: absolute;
+    width: 40%;
+    top: -115px;
+}
+
+.hero-circle{
+    position: absolute;
+    top: -80px;
+    z-index: 99;
+    margin: 3rem;
+}
+
+
+.hero-rounded {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin-right: 1.5rem;
+    border: 5px groove #D8D8D8;
+}
+
+.site-intro {
+    top:15rem;
+    position: relative;
+    padding: 3rem;
+}
+
+.site-intro p {
+    line-height: 3rem;
+}
+
+.site-intro p a {
+    text-decoration: underline;
+    color: #4C6C77;
+}
+
+/* BLOG NEWS */
+.text {
+    margin: 3rem;
+    display: flex;
+    width: 100%;
+}
+
+.blog, .news, .note {
+    position: relative;
+    height: 100%;
+}
+
+.line-separator{
+    height:1px;
+    border-bottom:1px dashed #313030;
+}
+
+.blog {
+    width: 23%;
+    padding-right: 2rem;
+}
+
+.news {
+    width: 48%;
+}
+
+.discuss {
+    height: 10rem;
+    width: 25%;
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.desc {
+    height: 5rem;
+    width: 70%;
+    display: inline-block;
+}
+
+.note {
+    width: 23%;
+    padding-left: 2rem;
+}
+
+/* Footer */
+
+.col-container {
+    display: table;
+    width: 100%;
+    color: #808A8C;
+    background-color: #F5F5F5;
+}
+.col {
+    display: table-cell;
+    padding: 16px;
+    text-align: center;
+}
